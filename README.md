@@ -8,6 +8,5 @@ Please cite this work as
   title        = "HyPER: A Flexible and Extensible Probabilistic Framework for Hybrid Recommender Systems",
   booktitle    = "9th ACM Conference on Recommender Systems (RecSys 2015)",
   year         = "2015",
-  publisher    = "ACM",
-  note         = "To Appear",
+  publisher    = "ACM"
 }
