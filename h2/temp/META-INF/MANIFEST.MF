@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Implementation-Title: H2 Database Engine
+Implementation-URL: http://www.h2database.com
+Implementation-Version: 1.2.126
+Build-Jdk: 1.6
+Created-By: 1.6.0_33-b33 (Sun Microsystems Inc.)
+Main-Class: org.h2.tools.Console
+Bundle-Activator: org.h2.util.DbDriverActivator
+Bundle-ManifestVersion: 2
+Bundle-Name: H2 Database Engine
+Bundle-SymbolicName: org.h2
+Bundle-Vendor: H2 Group
+Bundle-Version: 1.2.126
+DynamicImport-Package: *
+Export-Package: org.h2,org.h2.api,org.h2.fulltext,org.h2.jdbcx,org.h2.tools,org.h2.util
