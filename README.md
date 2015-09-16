@@ -45,9 +45,10 @@ For help check here: https://github.com/linqs/psl/wiki/Running-a-program
 8. Compile: `mvn compile`
 
 9. You can now run the models as follows from within the psl_example directory:
-    `java -cp ./target/classes:`cat classpath.out` edu.ucsc.cs.model.LastfmPerceptronWeightLearning`
-    `java -cp ./target/classes:`cat classpath.out` edu.ucsc.cs.model.YelpPerceptronWeightLearning`
-
+```sh
+    java -cp ./target/classes:`cat classpath.out` edu.ucsc.cs.model.LastfmPerceptronWeightLearning
+    java -cp ./target/classes:`cat classpath.out` edu.ucsc.cs.model.YelpPerceptronWeightLearning
+```
 If the program runs out of memory you may want to increase the java VM heap size.
 
 
