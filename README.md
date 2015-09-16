@@ -22,7 +22,7 @@ The following assumes everything is down in the same directory e.g. recsys. The 
 1. Download and install the Probabilistic Soft Logic (PSL) software from here: https://github.com/linqs/psl . Useful info: https://github.com/linqs/psl/wiki/Getting-started
 
 2. Make sure you can run the basic examples. E.g. 
-java -cp ./target/classes:`cat classpath.out` edu.umd.cs.example.BasicExample
+java -cp ./target/classes:\`cat classpath.out\` edu.umd.cs.example.BasicExample
 For help check here: https://github.com/linqs/psl/wiki/Running-a-program
 
 3. clone this git repository
