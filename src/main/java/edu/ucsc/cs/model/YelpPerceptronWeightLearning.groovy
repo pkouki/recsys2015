@@ -125,10 +125,10 @@ m.add rule :  ((rated(U,I1) & rated(U,I2) & rating(U,I1) & sim_adjcos_items(I1,I
 
 //USERS
 //pearson users
-m.add rule :  ((rated(U,I1) & rated(U,I2) & rating(U,I1) & sim_pearson_users(I1,I2)) >> rating(U,I2)), weight: 1, squared:false;
+m.add rule :  ((rated(U1,I) & rated(U2,I) & rating(U1,I) & sim_pearson_users(U1,U2)) >> rating(U2,I)), weight: 1, squared:false;
 
 //cosine users
-m.add rule :  ((rated(U,I1) & rated(U,I2) & rating(U,I1) & sim_cosine_users(I1,I2)) >> rating(U,I2)), weight: 1, squared:false;
+m.add rule :  ((rated(U1,I) & rated(U2,I) & rating(U1,I) & sim_cosine_users(U1,U2)) >> rating(U2,I)), weight: 1, squared:false;
 
 //low dimension space similarities
 //USERS
